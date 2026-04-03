@@ -448,7 +448,7 @@
       <div class="reveal">
         <p class="contact-intro">I'm graduating in May 2026 and actively looking for full-time marketing roles. Whether you're hiring, want to chat about your team, or just want to connect — my inbox is open.</p>
         <div class="contact-detail">
-          <div class="cd-item"><span>◉</span> rami@ramisam.com</div>
+          <div class="cd-item"><span>◉</span> <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="dba9bab6b29ba9bab6b2a8bab6f5b8b4b6">[email&#160;protected]</a></div>
           <div class="cd-item"><span>◈</span> [Your City, State]</div>
           <div class="cd-item"><span>▲</span> linkedin.com/in/ramisam</div>
         </div>
@@ -486,10 +486,14 @@
   </div>
 </footer>
 
-<script>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
   const dot=document.getElementById('cursorDot'), ring=document.getElementById('cursorRing');
-  let mx=window.innerWidth/2, my=window.innerHeight/2, rx=mx, ry=my;
-  document.addEventListener('mousemove', e=>{ mx=e.clientX; my=e.clientY; });
+  dot.style.opacity='0'; ring.style.opacity='0';
+  let mx=-100, my=-100, rx=-100, ry=-100;
+  document.addEventListener('mousemove', e=>{
+    mx=e.clientX; my=e.clientY;
+    dot.style.opacity='1'; ring.style.opacity='1';
+  });
   (function anim(){ dot.style.left=mx+'px'; dot.style.top=my+'px'; rx+=(mx-rx)*.12; ry+=(my-ry)*.12; ring.style.left=rx+'px'; ring.style.top=ry+'px'; requestAnimationFrame(anim); })();
   document.querySelectorAll('a, button').forEach(el=>{
     el.addEventListener('mouseenter',()=>{ ring.style.width='56px'; ring.style.height='56px'; ring.style.borderColor='var(--accent)'; });
@@ -500,12 +504,4 @@
   document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
   // Fallback: make everything visible after 1.5s in case observer fails
   setTimeout(()=>document.querySelectorAll('.reveal').forEach(el=>el.classList.add('visible')), 1500);
-  const sio=new IntersectionObserver(entries=>{entries.forEach(e=>{if(e.isIntersecting){document.querySelectorAll('.skill-fill').forEach(b=>b.style.width=b.dataset.width+'%');sio.disconnect();}});},{threshold:.3});
-  sio.observe(document.getElementById('skillsGrid'));
-
-  async function handleSubmit(e) {
-    e.preventDefault();
-    const form = e.target;
-    const data = new FormData(form);
-    try {
-      await fetch(
+  const sio=new IntersectionObserver(entries=>{entries.forEach(e=>{if(e.isIntersecting){document.querySelectorAll('.skill-fill').forEach(b=>b.style.width=b.dataset.width+'%');sio.disconnect();}}
