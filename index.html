@@ -82,7 +82,7 @@
   .cursor { position:fixed; top:0; left:0; z-index:9999; pointer-events:none; }
   .cursor-dot { width:8px; height:8px; background:var(--accent); border-radius:50%; position:absolute; transform:translate(-50%,-50%); }
   .cursor-ring { width:36px; height:36px; border:1.5px solid var(--white); border-radius:50%; position:absolute; transform:translate(-50%,-50%); transition:width .3s,height .3s,border-color .3s; }
-  body:has(a:hover) .cursor-ring, body:has(button:hover) .cursor-ring { width:56px; height:56px; border-color:var(--accent); }
+  body:has(a:hover) .cursor-ring, body:has(button:hover) .cursor-ring { width:56px; height:56px; border-color:var(--accent); } .cursor { display:block !important; }
   nav { position:fixed; top:0; left:0; right:0; z-index:100; display:flex; align-items:center; justify-content:space-between; padding:24px 48px; border-bottom:1px solid transparent; transition:border-color .4s,background .4s; }
   nav.scrolled { background:rgba(8,8,8,0.92); border-color:var(--border); backdrop-filter:blur(12px); }
   .nav-logo { font-family:'Bebas Neue',sans-serif; font-size:1.6rem; letter-spacing:.08em; color:var(--white); text-decoration:none; }
@@ -252,7 +252,7 @@
     <h2 class="section-title reveal">THE PERSON<br>BEHIND THE WORK</h2>
     <div class="about-grid">
       <div class="about-img-wrap reveal">
-        <img src="photo.png" alt="Rami Sam — Marketing Student" style="width:100%;aspect-ratio:4/5;object-fit:cover;object-position:center top;display:block;">
+        <img src="photo.png" alt="Rami Sam — Marketing Student" style="width:100%;aspect-ratio:4/5;object-fit:cover;object-position:center top;display:block;image-rendering:high-quality;">
         <div class="about-accent-box"></div>
       </div>
       <div class="about-text reveal">
