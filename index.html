@@ -503,4 +503,7 @@
   document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
   // Fallback: make everything visible after 1.5s in case observer fails
   setTimeout(()=>document.querySelectorAll('.reveal').forEach(el=>el.classList.add('visible')), 1500);
-  const sio=new IntersectionObserver(entries=>{entries.forEach(e=>{if(e.isIntersecting){document.querySelectorAll('.skill-fill').forEach(b=>b.style.width=b.dataset.width+'%');sio.disconnect();}}
+  const sio=new IntersectionObserver(entries=>{entries.forEach(e=>{if(e.isIntersecting){document.querySelectorAll('.skill-fill').forEach(b=>b.style.width=b.dataset.width+'%');sio.disconnect();}});},{threshold:0.2});
+     document.getElementById('skillsGrid')&&sio.observe(document.getElementById('skillsGrid'));
+function handleSubmit(e){e.preventDefault();document.getElementById('formSuccess').style.display='block';}
+</script>
