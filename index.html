@@ -4,40 +4,24 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<!-- ================================================
-     PRIMARY SEO — update every [bracketed] value
-     ================================================ -->
 <title>Rami Sam | Marketing Student Portfolio — Class of 2026</title>
-<meta name="description" content="Rami Sam is a marketing student graduating May 2026 with hands-on project experience in social media, brand strategy, SEO, and content marketing. Available for full-time roles from June 2026.">
-<meta name="keywords" content="Rami Sam, marketing student portfolio, marketing graduate 2026, entry level marketing, social media marketing, brand strategy, content marketing">
+<meta name="description" content="Rami Sam is a marketing student at SDSU graduating May 2026 with hands-on project experience in social media, brand strategy, SEO, and content marketing. Available for full-time roles from June 2026.">
+<meta name="keywords" content="Rami Sam, marketing student portfolio, SDSU marketing, marketing graduate 2026, entry level marketing, social media marketing, brand strategy, content marketing, San Diego">
 <meta name="author" content="Rami Sam">
 <link rel="canonical" href="https://www.ramisam.com/">
 
-<!-- ================================================
-     OPEN GRAPH — controls how your link looks when
-     shared on LinkedIn, Facebook, iMessage, etc.
-     ================================================ -->
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://www.ramisam.com/">
 <meta property="og:title" content="Rami Sam | Marketing Student Portfolio — Class of 2026">
 <meta property="og:description" content="Marketing graduate with project experience in social media, brand strategy, SEO, and content marketing. Available full-time from June 2026.">
-<meta property="og:image" content="https://www.ramisam.com/photo.png">
+<meta property="og:image" content="https://www.ramisam.com/photo.jpg">
 
-<!-- ================================================
-     TWITTER / X CARD — controls how link previews
-     look when shared on Twitter/X
-     ================================================ -->
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:url" content="https://www.ramisam.com/">
 <meta name="twitter:title" content="Rami Sam | Marketing Student Portfolio">
 <meta name="twitter:description" content="Marketing graduate available June 2026. Project experience in social media, brand strategy, SEO, and content marketing.">
-<meta name="twitter:image" content="https://www.ramisam.com/photo.png">
+<meta name="twitter:image" content="https://www.ramisam.com/photo.jpg">
 
-<!-- ================================================
-     STRUCTURED DATA (JSON-LD) — helps Google
-     understand exactly who you are and what this
-     page is about. Shows in rich search results.
-     ================================================ -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -46,14 +30,13 @@
   "url": "https://www.ramisam.com",
   "email": "rami@ramisam.com",
   "jobTitle": "Marketing Graduate",
-  "description": "Marketing student graduating May 2026 with project experience in social media marketing, brand strategy, content marketing, SEO, and email marketing.",
+  "description": "Marketing student at SDSU graduating May 2026 with project experience in social media marketing, brand strategy, content marketing, SEO, and email marketing.",
   "alumniOf": {
     "@type": "CollegeOrUniversity",
-    "name": "[Your University Name]"
+    "name": "San Diego State University"
   },
   "sameAs": [
-    "https://www.linkedin.com/in/alexrivera",
-    "https://www.instagram.com/alexrivera"
+    "https://www.linkedin.com/in/ramisam"
   ],
   "knowsAbout": [
     "Social Media Marketing",
@@ -67,9 +50,6 @@
 }
 </script>
 
-<!-- ================================================
-     PERFORMANCE & INDEXING
-     ================================================ -->
 <meta name="robots" content="index, follow">
 <meta name="theme-color" content="#ff3c00">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -78,10 +58,9 @@
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
   :root { --black:#080808; --white:#f5f2eb; --accent:#ff3c00; --accent2:#ffd100; --mid:#1a1a1a; --border:rgba(245,242,235,0.12); }
   html { scroll-behavior: smooth; }
-  body { background:var(--black); color:var(--white); font-family:'DM Sans',sans-serif; font-weight:300; line-height:1.6; overflow-x:hidden; }
+  body { background:var(--black); color:var(--white); font-family:'DM Sans',sans-serif; font-weight:300; line-height:1.6; overflow-x:hidden; cursor:none; }
   .cursor-dot { width:10px; height:10px; background:var(--accent); border-radius:50%; position:fixed; transform:translate(-50%,-50%); z-index:9999; pointer-events:none; }
   .cursor-ring { width:36px; height:36px; border:1.5px solid var(--white); border-radius:50%; position:fixed; transform:translate(-50%,-50%); z-index:9998; pointer-events:none; transition:width .3s,height .3s,border-color .3s; }
-  body { cursor:none; }
   nav { position:fixed; top:0; left:0; right:0; z-index:100; display:flex; align-items:center; justify-content:space-between; padding:24px 48px; border-bottom:1px solid transparent; transition:border-color .4s,background .4s; }
   nav.scrolled { background:rgba(8,8,8,0.92); border-color:var(--border); backdrop-filter:blur(12px); }
   .nav-logo { font-family:'Bebas Neue',sans-serif; font-size:1.6rem; letter-spacing:.08em; color:var(--white); text-decoration:none; }
@@ -113,9 +92,6 @@
   #about { background:var(--mid); }
   .about-grid { display:grid; grid-template-columns:1fr 1fr; gap:80px; align-items:center; margin-top:64px; }
   .about-img-wrap { position:relative; }
-  .about-img-placeholder { width:100%; aspect-ratio:4/5; background:#111; border:1px solid var(--border); display:flex; align-items:center; justify-content:center; flex-direction:column; gap:12px; color:rgba(245,242,235,.2); font-family:'Space Mono',monospace; font-size:.72rem; letter-spacing:.1em; position:relative; overflow:hidden; }
-  .about-img-placeholder::before { content:''; position:absolute; inset:0; background:linear-gradient(135deg,rgba(255,60,0,.06) 0%,transparent 60%); }
-  .about-img-placeholder .icon { font-size:2.4rem; opacity:.3; }
   .about-accent-box { position:absolute; bottom:-20px; right:-20px; width:120px; height:120px; background:var(--accent); z-index:-1; }
   .about-text p { color:rgba(245,242,235,.72); margin-top:24px; font-size:1.05rem; line-height:1.8; }
   .about-text p + p { margin-top:16px; }
@@ -134,7 +110,6 @@
   .project-card:hover::before { transform:scaleX(1); }
   .project-number { font-family:'Bebas Neue',sans-serif; font-size:4rem; color:rgba(255,60,0,.15); line-height:1; margin-bottom:20px; }
   .project-type { display:inline-block; font-family:'Space Mono',monospace; font-size:.62rem; letter-spacing:.14em; text-transform:uppercase; padding:4px 10px; margin-bottom:12px; }
-  .project-type.internship { background:rgba(255,60,0,.15); color:var(--accent); }
   .project-type.academic { background:rgba(255,209,0,.12); color:var(--accent2); }
   .project-type.personal { background:rgba(245,242,235,.07); color:rgba(245,242,235,.6); }
   .project-title { font-family:'Bebas Neue',sans-serif; font-size:1.8rem; letter-spacing:.04em; line-height:1.1; margin-bottom:16px; }
@@ -173,6 +148,8 @@
   .contact-intro { font-size:1.1rem; line-height:1.8; color:rgba(0,0,0,.7); }
   .contact-detail { margin-top:40px; display:flex; flex-direction:column; gap:16px; }
   .cd-item { display:flex; gap:16px; align-items:center; font-family:'Space Mono',monospace; font-size:.82rem; color:rgba(0,0,0,.7); }
+  .cd-item a { color:rgba(0,0,0,.7); text-decoration:none; }
+  .cd-item a:hover { color:var(--black); text-decoration:underline; }
   .avail-banner { margin-top:32px; padding:20px; background:rgba(0,0,0,.1); border:1.5px solid rgba(0,0,0,.2); }
   .avail-banner strong { font-family:'Bebas Neue',sans-serif; font-size:1.3rem; letter-spacing:.04em; display:block; margin-bottom:4px; }
   .avail-banner span { font-size:.82rem; color:rgba(0,0,0,.65); }
@@ -194,7 +171,8 @@
   .footer-socials a { font-family:'Space Mono',monospace; font-size:.68rem; letter-spacing:.12em; text-transform:uppercase; color:rgba(245,242,235,.4); text-decoration:none; transition:color .2s; }
   .footer-socials a:hover { color:var(--accent); }
   @keyframes fadeUp { from{opacity:0;transform:translateY(28px);}to{opacity:1;transform:translateY(0);} }
-  .reveal { opacity:1; transform:none; }
+  .reveal { opacity:0; transform:translateY(20px); transition:opacity .6s, transform .6s; }
+  .reveal.visible { opacity:1; transform:none; }
   ::-webkit-scrollbar{width:4px;} ::-webkit-scrollbar-track{background:var(--black);} ::-webkit-scrollbar-thumb{background:var(--accent);}
   @media(max-width:900px){
     nav{padding:20px 24px;} .nav-links{display:none;} section{padding:80px 24px;} #hero{padding:120px 24px 60px;}
@@ -202,7 +180,6 @@
     .projects-grid,.testi-grid{grid-template-columns:1fr;} footer{flex-direction:column;gap:20px;text-align:center;}
     .form-row{grid-template-columns:1fr;} body{cursor:auto!important;} .cursor-dot,.cursor-ring{display:none!important;}
   }
-
 </style>
 </head>
 <body>
@@ -228,13 +205,13 @@
   <div class="hero-inner">
     <p class="hero-tag">Marketing Student · Class of May 2026</p>
     <h1 class="hero-h1">READY TO<br><span class="line2">MAKE AN</span><br>IMPACT.</h1>
-    <p class="hero-sub">Marketing graduate who learns by doing — building real campaigns, growing real audiences, and solving real problems from day one.</p>
+    <p class="hero-sub">I'm a hands-on marketing student who builds real campaigns, grows real audiences, and solves real business problems. Not theory — execution.</p>
     <div class="hero-cta-row">
       <a href="#projects" class="btn-primary">See My Work</a>
       <a href="#contact" class="btn-ghost">Hire Me</a>
     </div>
     <div class="hero-badge-row">
-      <div class="hero-badge"><span class="bdot"></span>B.S. Marketing — May 2026</div>
+      <div class="hero-badge"><span class="bdot"></span>B.S. Marketing — SDSU · May 2026</div>
       <div class="hero-badge"><span class="bdot"></span>6 Projects Completed</div>
       <div class="hero-badge"><span class="bdot"></span>Available Full-Time · June 2026</div>
       <div class="hero-badge"><span class="bdot"></span>Open to Relocation</div>
@@ -249,16 +226,16 @@
     <h2 class="section-title reveal">THE PERSON<br>BEHIND THE WORK</h2>
     <div class="about-grid">
       <div class="about-img-wrap reveal">
-        <img src="photo.jpg" alt="Rami Sam — Marketing Student" style="width:100%;aspect-ratio:4/5;object-fit:cover;object-position:center top;display:block;">
+        <img src="photo.jpg" alt="Rami Sam — Marketing Student at SDSU" style="width:100%;aspect-ratio:4/5;object-fit:cover;object-position:center top;display:block;">
         <div class="about-accent-box"></div>
       </div>
       <div class="about-text reveal">
-        <p>I'm Rami Sam, a marketing student at [Your University] graduating in May 2026. I'm drawn to the intersection of data and creativity — where a smart insight meets a story worth telling.</p>
-        <p>I've spent four years building real skills through academic projects, pro bono client work, personal experiments, and a genuine obsession with what makes marketing actually work. No internships — just a lot of initiative and results I'm proud of.</p>
-        <p>I'm looking for a full-time role where I can contribute from day one, keep learning fast, and help a brand grow.</p>
+        <p>I'm Rami Sam, a marketing student at San Diego State University graduating in May 2026. I'm driven by the intersection of data, creativity, consumer psychology, and digital strategy — the place where insights turn into campaigns that actually perform.</p>
+        <p>I didn't wait for internships to get experience. I built it myself. Academic projects, pro bono client work, personal experiments, SEO builds, email programs, social growth challenges — if it teaches me something, I'm in.</p>
+        <p>I'm looking for a full-time marketing role where I can contribute immediately, learn fast, and help a brand grow through content strategy, digital marketing, analytics, and brand storytelling.</p>
         <div class="edu-block">
           <div class="edu-degree">Bachelor of Science in Marketing</div>
-          <div class="edu-school">[Your University Name] · [Your City, State]</div>
+          <div class="edu-school">San Diego State University · San Diego, CA</div>
           <div class="edu-meta">
             <span>🎓 Graduating <span class="hl">May 2026</span></span>
             <span>📊 GPA <span class="hl">3.7 / 4.0</span></span>
@@ -280,7 +257,7 @@
         <div class="project-number">01</div>
         <span class="project-type academic">Academic · Capstone</span>
         <h3 class="project-title">GO-TO-MARKET STRATEGY — LIVE CLIENT</h3>
-        <p class="project-desc">Led a 4-person team to develop a full go-to-market plan for a real local startup. Delivered market research, customer personas, channel strategy, and a 90-day launch roadmap — presented to the founders and a faculty panel.</p>
+        <p class="project-desc">Led a 4-person team to build a full go-to-market strategy for a local startup. Delivered market research, segmentation, customer personas, positioning, channel strategy, and a 90-day launch roadmap. Presented to founders and faculty.</p>
         <div class="project-metrics">
           <div class="metric"><div class="val">A</div><div class="key">Final Grade</div></div>
           <div class="metric"><div class="val">Live</div><div class="key">Client Brief</div></div>
@@ -291,7 +268,7 @@
         <div class="project-number">02</div>
         <span class="project-type academic">Academic · Campaign</span>
         <h3 class="project-title">INTEGRATED MARKETING CAMPAIGN</h3>
-        <p class="project-desc">Designed a full integrated campaign covering paid social, OOH, influencer outreach, and email sequences. Built creative mockups in Figma and presented a complete media plan with budget allocation. Awarded best in class.</p>
+        <p class="project-desc">Built a full integrated marketing campaign across paid social, OOH, influencer outreach, and email. Designed creative mockups in Figma and developed a media plan with budget allocation, targeting strategy, and KPIs. Awarded Best in Class.</p>
         <div class="project-metrics">
           <div class="metric"><div class="val">3</div><div class="key">Channels Covered</div></div>
           <div class="metric"><div class="val">Best</div><div class="key">In Class</div></div>
@@ -302,7 +279,7 @@
         <div class="project-number">03</div>
         <span class="project-type personal">Personal Project</span>
         <h3 class="project-title">NICHE BLOG — CONTENT & SEO EXPERIMENT</h3>
-        <p class="project-desc">Built and grew a niche blog from scratch to practice content marketing and SEO. Wrote 20+ long-form posts, performed keyword research with Ubersuggest, and grew organic traffic to 1,200 monthly visitors in 6 months — while in school.</p>
+        <p class="project-desc">Created and scaled a niche blog to practice SEO, content strategy, keyword research, and organic growth. Wrote 20+ long-form articles and grew traffic to 1,200 monthly visitors in 6 months using Ubersuggest and on-page optimization.</p>
         <div class="project-metrics">
           <div class="metric"><div class="val">1.2K</div><div class="key">Monthly Visitors</div></div>
           <div class="metric"><div class="val">20+</div><div class="key">Articles Written</div></div>
@@ -313,7 +290,7 @@
         <div class="project-number">04</div>
         <span class="project-type academic">University Marketing Lab</span>
         <h3 class="project-title">EMAIL PROGRAM — PRO BONO NONPROFIT</h3>
-        <p class="project-desc">Built a local nonprofit's first email marketing program through the university's Marketing Lab. Set up Mailchimp, designed a welcome sequence, and created a monthly newsletter template. Open rate hit 38% within 3 sends.</p>
+        <p class="project-desc">Built a nonprofit's first email marketing program through SDSU's Marketing Lab. Set up Mailchimp, designed a welcome sequence, and created a monthly newsletter template. Achieved a 38% open rate within the first three sends.</p>
         <div class="project-metrics">
           <div class="metric"><div class="val">38%</div><div class="key">Open Rate</div></div>
           <div class="metric"><div class="val">Pro Bono</div><div class="key">Real Client</div></div>
@@ -324,7 +301,7 @@
         <div class="project-number">05</div>
         <span class="project-type personal">Personal Project</span>
         <h3 class="project-title">SOCIAL MEDIA GROWTH EXPERIMENT</h3>
-        <p class="project-desc">Ran a 90-day personal experiment growing a niche Instagram account from 0 to 2,400 followers using organic content strategy, hashtag research, and Reels. Tracked all data in a weekly analytics dashboard built in Google Sheets.</p>
+        <p class="project-desc">Ran a 90-day experiment growing a niche Instagram account from 0 to 2,400 followers using organic content strategy, Reels optimization, hashtag research, and weekly analytics tracking.</p>
         <div class="project-metrics">
           <div class="metric"><div class="val">2.4K</div><div class="key">Followers Gained</div></div>
           <div class="metric"><div class="val">90</div><div class="key">Day Challenge</div></div>
@@ -334,8 +311,8 @@
       <div class="project-card reveal">
         <div class="project-number">06</div>
         <span class="project-type academic">Academic · Research</span>
-        <h3 class="project-title">CONSUMER BEHAVIOR RESEARCH STUDY</h3>
-        <p class="project-desc">Conducted original consumer research on purchase decision factors for Gen Z shoppers. Designed a 120-person survey, analyzed results in Excel, and presented findings with actionable recommendations for a hypothetical DTC brand.</p>
+        <h3 class="project-title">CONSUMER BEHAVIOR STUDY — GEN Z</h3>
+        <p class="project-desc">Designed and conducted a 120-person consumer behavior study focused on Gen Z purchase drivers. Analyzed data in Excel and presented actionable insights for a hypothetical DTC brand.</p>
         <div class="project-metrics">
           <div class="metric"><div class="val">120</div><div class="key">Survey Respondents</div></div>
           <div class="metric"><div class="val">Gen Z</div><div class="key">Focus Audience</div></div>
@@ -353,7 +330,7 @@
     <h2 class="section-title reveal">SKILLS &<br>TOOLS</h2>
     <div class="skills-layout">
       <div class="reveal">
-        <p class="skills-intro">Four years building a well-rounded marketing toolkit — from strategy and copywriting to data analysis and design. I learn fast and I'm not afraid to figure things out.</p>
+        <p class="skills-intro">Four years building a marketing toolkit grounded in digital marketing, content creation, analytics, brand strategy, and performance optimization. I learn fast, adapt quickly, and love figuring things out.</p>
         <div class="tools-section">
           <div class="tools-title">Tools I've Used</div>
           <div class="tools-cloud">
@@ -413,23 +390,23 @@
     <div class="testi-grid">
       <div class="testi-card reveal">
         <div class="testi-quote">"</div>
-        <p class="testi-text">Alex brought real strategic thinking to our capstone project. They kept the team focused, pushed us to go deeper on the research, and delivered a presentation that genuinely impressed the client. One of the strongest students I've worked with.</p>
+        <p class="testi-text">Rami brought real strategic thinking to our capstone project. He kept the team focused, pushed us deeper into the research, and delivered a presentation that impressed the client. One of the strongest students I've worked with.</p>
         <div class="testi-author">
           <div class="testi-name">Dr. Patricia Owens</div>
-          <div class="testi-role">Professor of Marketing · [Your University]</div>
+          <div class="testi-role">Professor of Marketing · SDSU</div>
         </div>
       </div>
       <div class="testi-card reveal">
         <div class="testi-quote">"</div>
-        <p class="testi-text">Alex ran the content and social strategy for our student marketing club and completely transformed our presence. Engagement went up, new members came in, and everything just looked more professional. They have a great eye and a strategic mind.</p>
+        <p class="testi-text">Rami ran the content and social strategy for our student marketing club and transformed our presence. Engagement went up, new members joined, and everything looked more professional. He has a great eye and a strategic mind.</p>
         <div class="testi-author">
           <div class="testi-name">Jordan Kim</div>
-          <div class="testi-role">President · [University] Marketing Club</div>
+          <div class="testi-role">President · SDSU Marketing Club</div>
         </div>
       </div>
       <div class="testi-card reveal">
         <div class="testi-quote">"</div>
-        <p class="testi-text">We were honestly amazed at what Alex put together for us. Our email open rates jumped immediately. For a nonprofit with no budget, having someone this skilled volunteer their time was a game-changer.</p>
+        <p class="testi-text">We were amazed at what Rami built for us. Our email open rates jumped immediately. For a nonprofit with no budget, having someone this skilled volunteer their time was a game-changer.</p>
         <div class="testi-author">
           <div class="testi-name">Marcus Webb</div>
           <div class="testi-role">Executive Director · [Nonprofit Name]</div>
@@ -446,11 +423,11 @@
     <h2 class="section-title reveal">OPEN FOR<br>OPPORTUNITIES.</h2>
     <div class="contact-layout">
       <div class="reveal">
-        <p class="contact-intro">I'm graduating in May 2026 and actively looking for full-time marketing roles. Whether you're hiring, want to chat about your team, or just want to connect — my inbox is open.</p>
+        <p class="contact-intro">I'm graduating in May 2026 and actively looking for full-time marketing roles. Whether you're hiring, building a team, or just want to connect — my inbox is open.</p>
         <div class="contact-detail">
-          <div class="cd-item"><span>◉</span> <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="dba9bab6b29ba9bab6b2a8bab6f5b8b4b6">[email&#160;protected]</a></div>
-          <div class="cd-item"><span>◈</span> [Your City, State]</div>
-          <div class="cd-item"><span>▲</span> linkedin.com/in/ramisam</div>
+          <div class="cd-item"><span>◉</span> <a href="mailto:rami@ramisam.com">rami@ramisam.com</a></div>
+          <div class="cd-item"><span>◈</span> San Diego, CA</div>
+          <div class="cd-item"><span>▲</span> <a href="https://www.linkedin.com/in/ramisam" target="_blank" rel="noopener">linkedin.com/in/ramisam</a></div>
         </div>
         <div class="avail-banner">
           <strong>Available Full-Time — June 2026</strong>
@@ -458,9 +435,7 @@
         </div>
       </div>
       <div class="reveal">
-        <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" class="contact-form" id="contactForm" onsubmit="handleSubmit(event)">
-          <input type="hidden" name="form-name" value="contact">
-          <p style="display:none;"><label>Don't fill this out: <input name="bot-field"></label></p>
+        <form class="contact-form" id="contactForm" onsubmit="handleSubmit(event)">
           <div class="form-row">
             <div class="form-group"><label class="form-label">First Name</label><input type="text" name="first-name" class="form-input" placeholder="Jane" required></div>
             <div class="form-group"><label class="form-label">Last Name</label><input type="text" name="last-name" class="form-input" placeholder="Smith" required></div>
@@ -480,30 +455,76 @@
   <a href="#hero" class="footer-logo">Rami<span>.</span></a>
   <span class="footer-copy">© 2026 Rami Sam · Marketing Portfolio</span>
   <div class="footer-socials">
-    <a href="#">LinkedIn</a>
+    <a href="https://www.linkedin.com/in/ramisam" target="_blank" rel="noopener">LinkedIn</a>
     <a href="#">Resume ↗</a>
     <a href="#">Instagram</a>
   </div>
 </footer>
-<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
-  const dot=document.getElementById('cursorDot'), ring=document.getElementById('cursorRing');
-  dot.style.opacity='0'; ring.style.opacity='0';
-  let mx=window.innerWidth/2, my=window.innerHeight/2, rx=mx, ry=my;
-  window.addEventListener('mousemove', e=>{
-    mx=e.clientX; my=e.clientY;
-    dot.style.opacity='1'; ring.style.opacity='1';
+
+<script>
+  // Custom cursor
+  const dot = document.getElementById('cursorDot');
+  const ring = document.getElementById('cursorRing');
+  let mx = 0, my = 0, rx = 0, ry = 0;
+  dot.style.opacity = '0';
+  ring.style.opacity = '0';
+  window.addEventListener('mousemove', function(e) {
+    mx = e.clientX;
+    my = e.clientY;
+    dot.style.opacity = '1';
+    ring.style.opacity = '1';
+    dot.style.left = mx + 'px';
+    dot.style.top = my + 'px';
   });
-  (function anim(){ dot.style.left=mx+'px'; dot.style.top=my+'px'; rx+=(mx-rx)*.12; ry+=(my-ry)*.12; ring.style.left=rx+'px'; ring.style.top=ry+'px'; requestAnimationFrame(anim); })();
-  document.querySelectorAll('a, button').forEach(el=>{
-    el.addEventListener('mouseenter',()=>{ ring.style.width='56px'; ring.style.height='56px'; ring.style.borderColor='var(--accent)'; });
-    el.addEventListener('mouseleave',()=>{ ring.style.width='36px'; ring.style.height='36px'; ring.style.borderColor='var(--white)'; });
+  function animateRing() {
+    rx += (mx - rx) * 0.12;
+    ry += (my - ry) * 0.12;
+    ring.style.left = rx + 'px';
+    ring.style.top = ry + 'px';
+    requestAnimationFrame(animateRing);
+  }
+  animateRing();
+  document.querySelectorAll('a, button').forEach(function(el) {
+    el.addEventListener('mouseenter', function() { ring.style.width='56px'; ring.style.height='56px'; ring.style.borderColor='var(--accent)'; });
+    el.addEventListener('mouseleave', function() { ring.style.width='36px'; ring.style.height='36px'; ring.style.borderColor='var(--white)'; });
   });
-  window.addEventListener('scroll',()=>document.getElementById('navbar').classList.toggle('scrolled',scrollY>60));
-  const io=new IntersectionObserver(entries=>{entries.forEach((e,i)=>{if(e.isIntersecting){setTimeout(()=>e.target.classList.add('visible'),i*80);io.unobserve(e.target);}});},{threshold:0, rootMargin:'0px 0px -50px 0px'});
-  document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
-  // Fallback: make everything visible after 1.5s in case observer fails
-  setTimeout(()=>document.querySelectorAll('.reveal').forEach(el=>el.classList.add('visible')), 1500);
-  const sio=new IntersectionObserver(entries=>{entries.forEach(e=>{if(e.isIntersecting){document.querySelectorAll('.skill-fill').forEach(b=>b.style.width=b.dataset.width+'%');sio.disconnect();}});},{threshold:0.2});
-     document.getElementById('skillsGrid')&&sio.observe(document.getElementById('skillsGrid'));
-function handleSubmit(e){e.preventDefault();document.getElementById('formSuccess').style.display='block';}
+
+  // Navbar scroll
+  window.addEventListener('scroll', function() {
+    document.getElementById('navbar').classList.toggle('scrolled', window.scrollY > 60);
+  });
+
+  // Reveal on scroll
+  const io = new IntersectionObserver(function(entries) {
+    entries.forEach(function(e, i) {
+      if (e.isIntersecting) {
+        setTimeout(function() { e.target.classList.add('visible'); }, i * 80);
+        io.unobserve(e.target);
+      }
+    });
+  }, { threshold: 0, rootMargin: '0px 0px -50px 0px' });
+  document.querySelectorAll('.reveal').forEach(function(el) { io.observe(el); });
+  setTimeout(function() {
+    document.querySelectorAll('.reveal').forEach(function(el) { el.classList.add('visible'); });
+  }, 1500);
+
+  // Skill bars
+  const sio = new IntersectionObserver(function(entries) {
+    entries.forEach(function(e) {
+      if (e.isIntersecting) {
+        document.querySelectorAll('.skill-fill').forEach(function(b) { b.style.width = b.dataset.width + '%'; });
+        sio.disconnect();
+      }
+    });
+  }, { threshold: 0.2 });
+  var skillsGrid = document.getElementById('skillsGrid');
+  if (skillsGrid) { sio.observe(skillsGrid); }
+
+  // Form submit
+  function handleSubmit(e) {
+    e.preventDefault();
+    document.getElementById('formSuccess').style.display = 'block';
+  }
 </script>
+</body>
+</html>
